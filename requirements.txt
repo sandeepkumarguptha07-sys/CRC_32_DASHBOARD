@@ -1,1 +1,2 @@
-# The dashboard is a desktop Tkinter application and has no third-party Python dependencies.
+streamlit
+pandas

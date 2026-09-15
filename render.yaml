@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: crc-32-dashboard
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run classroom_crc32_web_dashboard.py --server.address 0.0.0.0 --server.port $PORT
